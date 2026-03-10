@@ -8,16 +8,18 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "generate-genesis": "tsx scripts/generate-genesis.ts"
   },
   "dependencies": {
+    "@noble/hashes": "^1.4.0",
     "h3-js": "^4.1.0",
-    "tweetnacl": "^1.0.3",
-    "@noble/hashes": "^1.4.0"
+    "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.4.0",
-    "vitest": "^1.6.0",
-    "@types/node": "^20.0.0"
+    "vitest": "^1.6.0"
   }
 }

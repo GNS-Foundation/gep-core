@@ -200,7 +200,7 @@ export async function computeEpoch(
     const generatedAt = Date.now();
     let merkle: string;
 
-    if (resolution <= 8 || opts.exact) {
+    if (resolution <= 5 || opts.exact) {
         // Exact computation: get all cells at this resolution
         const cells = h3.getRes0Cells().flatMap(base =>
             resolution === 0 ? [base] : h3.cellToChildren(base, resolution)

@@ -1,0 +1,108 @@
+{
+  "protocol_version": 1,
+  "generated_at": "2026-03-10T09:36:48.253Z",
+  "generator_version": "0.1.0",
+  "note": "R0-R5 exact Merkle. R6-R8 deterministic seed approximation.",
+  "genesis_hash": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+  "chain": [
+    {
+      "protocol_version": 1,
+      "resolution": 0,
+      "cell_count": "122",
+      "merkle_root": "d3ca9dc2de067fa300de4c66d3958d7d158e565c29521686b12ea2a7d7e8dc8d",
+      "parent_epoch_hash": null,
+      "child_epoch_hash": "9cd067fc4efa8e27487382de1fc97239f5d8273bba243e610f52d880f923a435",
+      "generated_at": 1773135396039,
+      "generator_version": "0.1.0",
+      "epoch_hash": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 1,
+      "cell_count": "842",
+      "merkle_root": "111f6c7c7dfbd5097ba2d9c42a161b13306cb4dd6064b3a2b1bde3046d092095",
+      "parent_epoch_hash": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "child_epoch_hash": "342f372d6f1b512acac187a6b4a7c2fa0868136c537eb39e5746cecec89eec7c",
+      "generated_at": 1773135396043,
+      "generator_version": "0.1.0",
+      "epoch_hash": "9cd067fc4efa8e27487382de1fc97239f5d8273bba243e610f52d880f923a435"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 2,
+      "cell_count": "5882",
+      "merkle_root": "bb9d763f9c9a253d974f128a94c2f96de427f9f2e2cfe91139b34d44fee1c567",
+      "parent_epoch_hash": "9cd067fc4efa8e27487382de1fc97239f5d8273bba243e610f52d880f923a435",
+      "child_epoch_hash": "a39d962eb656b6861442d441414abf484f2536ddac9137af0fd137e0745b9f3c",
+      "generated_at": 1773135396048,
+      "generator_version": "0.1.0",
+      "epoch_hash": "342f372d6f1b512acac187a6b4a7c2fa0868136c537eb39e5746cecec89eec7c"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 3,
+      "cell_count": "41162",
+      "merkle_root": "e35352e776cb5c203b184fa3e7ec75472b2b14afc344fb913b17ac15b8e4b25e",
+      "parent_epoch_hash": "342f372d6f1b512acac187a6b4a7c2fa0868136c537eb39e5746cecec89eec7c",
+      "child_epoch_hash": "a2f62265ffbccfe35f716a026ae82728b8ec5966b7ef00fc3ba272362bd99080",
+      "generated_at": 1773135396071,
+      "generator_version": "0.1.0",
+      "epoch_hash": "a39d962eb656b6861442d441414abf484f2536ddac9137af0fd137e0745b9f3c"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 4,
+      "cell_count": "288122",
+      "merkle_root": "47a602963b6c7fee255f9c74d0709b4eea0c1aeb029cb8519dbe439e5e29ef00",
+      "parent_epoch_hash": "a39d962eb656b6861442d441414abf484f2536ddac9137af0fd137e0745b9f3c",
+      "child_epoch_hash": "81d353e3963e82a5e600d7faeb463f99f5fdee0f83313b7b138df25cf38395ea",
+      "generated_at": 1773135396236,
+      "generator_version": "0.1.0",
+      "epoch_hash": "a2f62265ffbccfe35f716a026ae82728b8ec5966b7ef00fc3ba272362bd99080"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 5,
+      "cell_count": "2016842",
+      "merkle_root": "8cc9109d287061c4e15c0de86eec106b8fbfef62dda23a893758548881dbc5c6",
+      "parent_epoch_hash": "a2f62265ffbccfe35f716a026ae82728b8ec5966b7ef00fc3ba272362bd99080",
+      "child_epoch_hash": "4e7d5ef20a4e1477b95c6f4ab36b6a0a6248c033f7cd9e4705c395f833abb883",
+      "generated_at": 1773135397388,
+      "generator_version": "0.1.0",
+      "epoch_hash": "81d353e3963e82a5e600d7faeb463f99f5fdee0f83313b7b138df25cf38395ea"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 6,
+      "cell_count": "14117882",
+      "merkle_root": "f0d8c86a4736f31faadad992df8923f2ba73e97e7d9045ec3eb0130a5a13816c",
+      "parent_epoch_hash": "81d353e3963e82a5e600d7faeb463f99f5fdee0f83313b7b138df25cf38395ea",
+      "child_epoch_hash": "43093fa4244cc53280d77f33f7ef17dffc616b30f8d34d0f48d6d78f5f7f5ac9",
+      "generated_at": 1773135408253,
+      "generator_version": "0.1.0",
+      "epoch_hash": "4e7d5ef20a4e1477b95c6f4ab36b6a0a6248c033f7cd9e4705c395f833abb883"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 7,
+      "cell_count": "98825162",
+      "merkle_root": "19fa413945b703ec9015c6adcbc9f2ecc4255980eb60ece1349a9b4d25cd83d0",
+      "parent_epoch_hash": "4e7d5ef20a4e1477b95c6f4ab36b6a0a6248c033f7cd9e4705c395f833abb883",
+      "child_epoch_hash": "16df871138e4ed6e2ff136370ab4baa4f653ff650b07b03fc7e9bf0c9954f807",
+      "generated_at": 1773135408253,
+      "generator_version": "0.1.0",
+      "epoch_hash": "43093fa4244cc53280d77f33f7ef17dffc616b30f8d34d0f48d6d78f5f7f5ac9"
+    },
+    {
+      "protocol_version": 1,
+      "resolution": 8,
+      "cell_count": "691776122",
+      "merkle_root": "853b85c8df964d59c6a108f05f277cdd755696ca9b597fa3a7f966a6b175d05b",
+      "parent_epoch_hash": "43093fa4244cc53280d77f33f7ef17dffc616b30f8d34d0f48d6d78f5f7f5ac9",
+      "child_epoch_hash": null,
+      "generated_at": 1773135408253,
+      "generator_version": "0.1.0",
+      "epoch_hash": "16df871138e4ed6e2ff136370ab4baa4f653ff650b07b03fc7e9bf0c9954f807"
+    }
+  ]
+}
